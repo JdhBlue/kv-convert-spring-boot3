@@ -6,9 +6,11 @@
 ```java
 @KVName("approveType")
 public class ApproveTypeNameKVServiceImpl implements IKVService<DefaultCacheObject> {
+    //此处可以是其他rpc调用，或者单纯的Enum枚举类提供基础数据
     @DubboReference
     private ApproveRulesService approveRulesService;
 
+    //此处是为了项目启动时加载相关字典数据做到初始化用的
     @Override
     public List<DefaultCacheObject> list() {
         return new ArrayList<>();
