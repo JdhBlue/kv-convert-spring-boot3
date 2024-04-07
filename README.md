@@ -1,6 +1,7 @@
 
-# kv 转换工具
+# kv 转换组件
 通过缓存一些字典或自定义转换的数据，达到查key回显value的效果。
+同时也可以做到数据脱敏。
 目前实现用的guavaCache与jetCache，其中jetCache 需要原本项目对其的支持，默认guavaCache
 ## 推荐架构结合：
 ```mermaid
