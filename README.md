@@ -115,7 +115,7 @@ jblue:
 
 5、通过KVUtil暴露的方法（如 KVUtil.convertKV(Object o)）达到将Object o对象中数据进行转换
 
-6、对使用mybatis的项目，通过@EnableMybatis启动mybatis插件，查询数据后自动调用kv组件进行kv转换达到数据库查到为“3”但是对象被赋值为字典值“已通过”的效果
+6、对使用mybatis的项目，通过@EnableMybatisKV启动mybatis插件，查询数据后自动调用kv组件进行kv转换达到数据库查到为“3”但是对象被赋值为字典值“已通过”的效果
 
 
 # kv 数据脱敏工具
